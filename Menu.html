@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu - Mubarak Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="container flex-between">
+            <div class="logo">Mubarak Cafe</div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Visit Us.html">Visit Us</a></li>
+                <li><a href="/menu.html" class="active">Menu</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="menu-hero">
+        <h1>Our Menu</h1>
+    </section>
+
+    <div class="menu-main container">
+
+        <aside class="menu-filters">
+            <input type="text" id="searchBar" placeholder="Search for dishes...">
+
+            <h4>Categories</h4>
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+                <button class="filter-btn" data-filter="beverages">Beverages</button>
+                <button class="filter-btn" data-filter="fastfood">Fast Food</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+            </div>
+        </aside>
+
+        <section class="menu-content">
+
+            <!-- Breakfast -->
+            <div class="menu-category" data-category="breakfast">
+                <h2>Breakfast</h2>
+                <div class="cards-row">
+
+                    <div class="menu-card">
+                        <img src="/menu/breakfast/anda_paratha.png" alt="Anda Paratha">
+                        <div class="card-info">
+                            <h3>Anda Paratha</h3>
+                            <p>Fresh egg served with crispy paratha.</p>
+                            <span>PKR 120</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/breakfast/paratha.png" alt="Plain Paratha">
+                        <div class="card-info">
+                            <h3>Plain Paratha</h3>
+                            <p>Hot and crispy traditional paratha.</p>
+                            <span>PKR 60</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/breakfast/omelette.png" alt="Omelette">
+                        <div class="card-info">
+                            <h3>Omelette</h3>
+                            <p>Two eggs cooked with herbs and spices.</p>
+                            <span>PKR 140</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/breakfast/halwa_puri.png" alt="HalwaPuri">
+                        <div class="card-info">
+                            <h3>Halwa Puri</h3>
+                            <p>Two puris served with halwa and chana.</p>
+                            <span>PKR 250</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/breakfast/chana_plate.png" alt="Chana Plate">
+                        <div class="card-info">
+                            <h3>Chana Plate</h3>
+                            <p>Traditional spicy chickpeas.</p>
+                            <span>PKR 180</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category" data-category="beverages">
+                <h2>Beverages</h2>
+                <div class="cards-row">
+
+                    <div class="menu-card">
+                        <img src="/menu/beverages/milk_tea.png" alt="Milk Tea">
+                        <div class="card-info">
+                            <h3>Milk Tea</h3>
+                            <p>Traditional strong chai.</p>
+                            <span>PKR 80</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/beverages/date_mix_shake.png" alt="Date Mix Shake">
+                        <div class="card-info">
+                            <h3>Date Mix Shake</h3>
+                            <p>Fresh dates blended with milk.</p>
+                            <span>PKR 280</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/beverages/kawa_yellow_tea.png" alt="Kawa Tea">
+                        <div class="card-info">
+                            <h3>Kawa Tea</h3>
+                            <p>Traditional Kashmiri green tea.</p>
+                            <span>PKR 80</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/beverages/cappuccino.png" alt="Cappuccino">
+                        <div class="card-info">
+                            <h3>Cappuccino</h3>
+                            <p>Rich and foamy coffee.</p>
+                            <span>PKR 220</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/beverages/banana_shake.png" alt="Banana Shake">
+                        <div class="card-info">
+                            <h3>Banana Shake</h3>
+                            <p>Fresh banana blended with milk.</p>
+                            <span>PKR 250</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/beverages/mango_shake.png" alt="Mango Shake">
+                        <div class="card-info">
+                            <h3>Mango Shake</h3>
+                            <p>Seasonal fresh mango shake.</p>
+                            <span>PKR 280</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Fast Food -->
+            <div class="menu-category" data-category="fastfood">
+                <h2>Fast Food</h2>
+                <div class="cards-row">
+
+                    <div class="menu-card">
+                        <img src="/menu/fastfood/club_sandwich.png" alt="Club Sandwich">
+                        <div class="card-info">
+                            <h3>Club Sandwich</h3>
+                            <p>Grilled chicken with fresh vegetables.</p>
+                            <span>PKR 350</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/fastfood/zinger_burger.png" alt="Zinger Burger">
+                        <div class="card-info">
+                            <h3>Zinger Burger</h3>
+                            <p>Crispy chicken fillet burger.</p>
+                            <span>PKR 400</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/fastfood/fries.png" alt="Fries">
+                        <div class="card-info">
+                            <h3>Fries</h3>
+                            <p>Golden crispy fries.</p>
+                            <span>PKR 180</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/fastfood/shawarma.png" alt="Shawarma">
+                        <div class="card-info">
+                            <h3>Shawarma</h3>
+                            <p>Chicken wrap with special sauce.</p>
+                            <span>PKR 280</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category" data-category="desserts">
+                <h2>Desserts</h2>
+                <div class="cards-row">
+
+                    <div class="menu-card">
+                        <img src="/menu/desserts/choc_cake.png" alt="Chocolate Cake">
+                        <div class="card-info">
+                            <h3>Chocolate Cake</h3>
+                            <p>Soft and rich chocolate slice.</p>
+                            <span>PKR 300</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/desserts/pastry.jpg" alt="Pastry">
+                        <div class="card-info">
+                            <h3>Pastry</h3>
+                            <p>Delicious in every bite.</p>
+                            <span>PKR 200</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="/menu/desserts/ice_cream_cup.png" alt="Ice Cream Cup">
+                        <div class="card-info">
+                            <h3>Ice Cream Cup</h3>
+                            <p>Vanilla or chocolate scoop.</p>
+                            <span>PKR 200</span>
+                            <a href="https://wa.me/923001234567" target="_blank" class="order-btn">Order on WhatsApp</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="container">
+        <p>&copy; 2026 Mubarak Cafe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
