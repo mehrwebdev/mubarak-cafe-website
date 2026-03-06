@@ -427,22 +427,119 @@ footer { text-align:center; padding:30px 0; color:#999; font-size:0.9rem; }
 }
 
 /* Responsive */
-@media(max-width:992px){
-    .menu-main{
-        flex-direction:column;
-    }
-    .menu-filters{
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content:center;
-        border-right:none; 
-        padding-right:0;
-    }
-    .menu-content{
-        padding-left:0;
-    }
-    .cards-row{
-        justify-content:center;
-        gap:20px;
-    }
+
+.menu-toggle{
+  font-size:28px;
+  cursor:pointer;
+  display:none;
+}
+
+@media(max-width:768px){
+
+  nav .container{
+    padding:12px 20px;
+    flex-wrap:wrap;
+  }
+
+  nav .logo{
+    font-size:1.5rem;
+  }
+
+  .menu-toggle{
+    display:block;
+  }
+
+  nav .nav-links{
+    position:absolute;
+    top:65px;
+    right:0;
+    width:200px;
+    background:#fff;
+    flex-direction:column;
+    gap:15px;
+    padding:20px;
+    display:none;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  }
+
+  nav .nav-links.active{
+    display:flex;
+  }
+
+  nav .nav-links li a{
+    font-size:1rem;
+  }
+
+  .hero-content h1{
+    font-size:2.2rem;
+  }
+
+  .hero-images{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .hero-item img{
+    width:90%;
+    height:auto;
+  }
+
+}
+/*  MENU section for Mobiles */
+@media (max-width: 768px) {
+
+  .menu-container {
+    gap: 15px;
+  }
+
+  .menu-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+  }
+
+  .menu-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .card-info {
+    flex: 1;
+  }
+
+  .card-info h3 {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  .card-info p {
+    font-size: 13px;
+    color: #ccc;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-info span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff7a00;
+  }
+
+  .order-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+
+  .menu-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }
